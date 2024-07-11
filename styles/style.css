@@ -3,3 +3,34 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.main {
+  max-width: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(208, 208, 248);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+h3 {
+  font-size: 24px;
+}
+.input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(240, 255, 255);
+  font-size: 15px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(255, 101, 170);
+  color: white;
+}
